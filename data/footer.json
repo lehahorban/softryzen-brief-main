@@ -1,0 +1,23 @@
+{
+  "social": {
+    "linkedin": {
+      "url": "https://www.linkedin.com/company/softryzen/",
+      "label": "Посилання на Linkedin"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/softryzen/",
+      "label": "Посилання на Instagram"
+    },
+    "behance": {
+      "url": "https://www.behance.net/softryzen",
+      "label": "Посилання на Behance"
+    },
+    "telegram": {
+      "url": "https://t.me/maksym_kozlov",
+      "label": "Посилання на Telegram"
+    }
+  },
+  "privacyPolicy": {
+    "link": "https://softryzen.com/privacy-policy"
+  }
+}

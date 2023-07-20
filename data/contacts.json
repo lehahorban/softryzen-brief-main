@@ -1,0 +1,31 @@
+{
+  "title": "Контакти",
+  "paragraphText": "Поділіться деталями та проблемами вашого проєкту, які потрібно вирішити. Наша команда уважно вивчить їх і спільно з вами розробить найкращі рішення для їх реалізації.",
+  "mailText": "services@softryzen.com",
+  "label": {
+    "labelTelegram": "Посилання на Телеграм",
+    "labelLinkedin": "Посилання на Лінкедін",
+    "labelPhon": "Подзвонити"
+  },
+
+  "persons": [
+    {
+      "id": "1",
+      "imageSrc": "/images/contacts/ceo@2x.jpg",
+      "name": "Mаксим Козлов",
+      "rank": "CEO компанії Softryzen",
+      "phone": "+380979769625",
+      "telegram": "https://t.me/maksym_kozlov",
+      "linkedin": "https://www.linkedin.com/in/maxim-kozlov/"
+    },
+    {
+      "id": "2",
+      "imageSrc": "/images/contacts/apprent_manager@2x.jpg",
+      "name": "Оксана Кузнєцова",
+      "rank": "Керівник відділу стажування",
+      "phone": "+380971894113",
+      "telegram": "https://t.me/Kuznietsova_Oksana",
+      "linkedin": "https://www.linkedin.com/in/oksana-kuznietsova/"
+    }
+  ]
+}

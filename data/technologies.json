@@ -1,0 +1,170 @@
+{
+  "title": "Технології",
+  "technologiesArray": [
+    {
+      "name": "figma",
+      "icon_dark": {
+        "src": "/images/technologies/figma.svg",
+        "alt": "іконка figma технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/figma-color.svg",
+        "alt": "кольорова іконка figma технології"
+      }
+    },
+    {
+      "name": "ps",
+      "icon_dark": {
+        "src": "/images/technologies/ps.svg",
+        "alt": "іконка ps технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/ps-color.svg",
+        "alt": "кольорова іконка ps технології"
+      }
+    },
+    {
+      "name": "ai",
+      "icon_dark": {
+        "src": "/images/technologies/ai.svg",
+        "alt": "іконка ai технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/ai-color.svg",
+        "alt": "кольорова іконка ai технології"
+      }
+    },
+    {
+      "name": "js",
+      "icon_dark": {
+        "src": "/images/technologies/js.svg",
+        "alt": "іконка js технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/js-color.svg",
+        "alt": "кольорова іконка js технології"
+      }
+    },
+    {
+      "name": "html",
+      "icon_dark": {
+        "src": "/images/technologies/html.svg",
+        "alt": "іконка html технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/html-color.svg",
+        "alt": "кольорова іконка html технології"
+      }
+    },
+    {
+      "name": "css",
+      "icon_dark": {
+        "src": "/images/technologies/css.svg",
+        "alt": "іконка css технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/css-color.svg",
+        "alt": "кольорова іконка css технології"
+      }
+    },
+    {
+      "name": "redux",
+      "icon_dark": {
+        "src": "/images/technologies/redux.svg",
+        "alt": "іконка redux технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/redux-color.svg",
+        "alt": "кольорова іконка redux технології"
+      }
+    },
+    {
+      "name": "next",
+      "icon_dark": {
+        "src": "/images/technologies/next.svg",
+        "alt": "іконка next технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/next-color.svg",
+        "alt": "кольорова іконка next технології"
+      }
+    },
+    {
+      "name": "git",
+      "icon_dark": {
+        "src": "/images/technologies/git.svg",
+        "alt": "іконка git технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/git-color.svg",
+        "alt": "кольорова іконка git технології"
+      }
+    },
+    {
+      "name": "sass",
+      "icon_dark": {
+        "src": "/images/technologies/sass.svg",
+        "alt": "іконка sass технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/sass-color.svg",
+        "alt": "кольорова іконка sass технології"
+      }
+    },
+    {
+      "name": "react",
+      "icon_dark": {
+        "src": "/images/technologies/react.svg",
+        "alt": "іконка react технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/react-color.svg",
+        "alt": "кольорова іконка react технології"
+      }
+    },
+    {
+      "name": "tailwind",
+      "icon_dark": {
+        "src": "/images/technologies/tailwind.svg",
+        "alt": "іконка tailwind технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/tailwind-color.svg",
+        "alt": "кольорова іконка tailwind технології"
+      }
+    },
+    {
+      "name": "gulp",
+      "icon_dark": {
+        "src": "/images/technologies/gulp.svg",
+        "alt": "іконка gulp технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/gulp-color.svg",
+        "alt": "кольорова іконка gulp технології"
+      }
+    },
+    {
+      "name": "firebase",
+      "icon_dark": {
+        "src": "/images/technologies/firebase.svg",
+        "alt": "іконка firebase технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/firebase-color.svg",
+        "alt": "кольорова іконка firebase технології"
+      }
+    },
+    {
+      "name": "webpack",
+      "icon_dark": {
+        "src": "/images/technologies/webpack.svg",
+        "alt": "іконка webpack технології"
+      },
+      "icon_color": {
+        "src": "/images/technologies/webpack-color.svg",
+        "alt": "кольорова іконка webpack технології"
+      }
+    }
+  ]
+}

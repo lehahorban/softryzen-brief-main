@@ -1,0 +1,39 @@
+{
+  "nav": [
+    {
+      "name": "Про нас",
+      "url": "/#about",
+      "id": "about",
+      "offset": -60
+    },
+    {
+      "name": "Як ми працюємо",
+      "url": "/#work",
+      "id": "work",
+      "offset": -60
+    },
+    {
+      "name": "Відгуки",
+      "url": "/#feedback",
+      "id": "feedback",
+      "offset": -60
+    },
+    {
+      "name": "Контакти",
+      "url": "/#contacts",
+      "id": "contacts",
+      "offset": -140
+    }
+  ],
+  "buttons": {
+    "mobileMenu": {
+      "label": {
+        "open": "Відкрити мобільне меню",
+        "close": "Закрити мобільне меню"
+      }
+    },
+    "brief": {
+      "text": "Заповнити бриф"
+    }
+  }
+}

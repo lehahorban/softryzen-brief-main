@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    @apply bg-white font-sans font-normal text-dark;
+  }
+
+  textarea:focus,
+  textarea:active {
+    @apply rounded-sm !outline-2 !outline-offset-0 !outline-primary;
+  }
+}
+
+@layer components {
+  /* Start classes for buttons */
+  .button {
+    @apply flex w-[259px] items-center justify-center gap-5 bg-primary px-5 py-3 text-center text-lg font-semibold text-white_light hover:bg-hover focus:bg-hover;
+  }
+  /* End classes for buttons */
+
+  /* Classes for header */
+  .sticky .header-logo {
+    @apply py-5 xl:py-2;
+  }
+
+  .sticky .menu-scroll.active {
+    @apply opacity-70;
+  }
+  /* End classes for header */
+
+  /* Start classes for gradient hover */
+
+  .gradientBtn:hover {
+    background-image: linear-gradient(
+      to top,
+      rgba(86, 195, 219, 1),
+      rgba(43, 104, 213, 1)
+    );
+  }
+  /* End classes for gradient hover */
+
+  /* Start classes for aboutUs */
+
+  .aboutBg {
+    background-image: url('/images/about/aboutUs-mobile-@1x.png');
+    background-repeat: no-repeat;
+    background-size: 100% 206px;
+    background-position: top left;
+    background-blend-mode: luminosity;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .aboutBg {
+      background-image: url('/images/about/aboutUs-mobile-@2x.png');
+    }
+  }
+  @supports (background-image: url('/images/about/aboutUs-mobile-@1x.webp')) {
+    .aboutBg {
+      background-image: url('/images/about/aboutUs-mobile-@1x.webp');
+      background-repeat: no-repeat;
+      background-size: 100% 206px;
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .aboutBg {
+        background-image: url('/images/about/aboutUs-mobile-@2x.webp');
+      }
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .aboutBg {
+      background-size: 480px 224px;
+      background-position: top left calc(50% - 6px);
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .aboutBg {
+      background-image: url('/images/about/aboutUs-tablet-@1x.png');
+      background-size: 684px 346px;
+      background-position: top left calc(50% - 15px);
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .aboutBg {
+        background-image: url('/images/about/aboutUs-tablet-@2x.png');
+      }
+    }
+
+    @supports (background-image: url('/images/about/aboutUs-tablet-@1x.webp')) {
+      .aboutBg {
+        background-image: url('/images/about/aboutUs-tablet-@2x.webp');
+        background-size: 684px 346px;
+      }
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .aboutBg {
+          background-image: url('/images/about/aboutUs-tablet-@2x.webp');
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .aboutBg {
+      background-image: url('/images/about/aboutUs-desctop-@1x.png');
+      background-size: 684px 555px;
+      background-position: top left calc(50% - 378px);
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .aboutBg {
+        background-image: url('/images/about/aboutUs-desctop-@2x.png');
+      }
+    }
+    @supports (
+      background-image: url('/images/about/aboutUs-desctop-@1x.webp')
+    ) {
+      .aboutBg {
+        background-image: url('/images/about/aboutUs-desctop-@2x.webp');
+        background-size: 684px 555px;
+      }
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .aboutBg {
+          background-image: url('/images/about/aboutUs-desctop-@2x.webp');
+        }
+      }
+    }
+  }
+
+  /* End classes for aboutUs */
+
+  /* Start classes for help */
+  .helpBg {
+    background-image: url('/images/help/help_bg_1x.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: luminosity;
+    background-size: 473px auto;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .helpBg {
+      background-image: url('/images/help/help_bg_2x.png');
+    }
+  }
+  @supports (background-image: url('/images/help/help_bg_1x.webp')) {
+    .helpBg {
+      background-image: url('/images/help/help_bg_1x.webp');
+    }
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .helpBg {
+        background-image: url('/images/help/help_bg_2x.webp');
+      }
+    }
+  }
+
+  /* End classes for help */
+
+  /* Start classes for offer */
+
+  @media screen and (min-width: 1280px) {
+    .offerBg {
+      background-image: url('/images/hero/imageBg.svg');
+      background-repeat: no-repeat;
+      background-size: 1360px;
+      background-position: 50% 100%;
+    }
+
+    .offerParagraph::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      border-bottom: 1px solid #d6dfe6;
+    }
+  }
+  /* End classes for offer */
+
+  /* Start classes for workWithUs */
+
+  @media screen and (min-width: 768px) {
+    .workWithUs::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      height: 900px;
+      border-left: 1px solid #d6dfe6;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .workWithUs::before {
+      height: 972px;
+    }
+  }
+
+  /* End classes for workWithUs */
+
+  /* Start classes for technologies */
+
+  .techContainer::after {
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    left: 20px;
+    display: block;
+    width: calc(100% - 40px);
+    height: 2px;
+    background-color: #d6dfe6;
+  }
+
+  @media screen and (min-width: 768px) {
+    .techContainer::after {
+      left: 32px;
+      width: 704px;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .techContainer::after {
+      width: 1216px;
+    }
+  }
+
+  /* End classes for technologies */
+
+  /* Start classes for 404 page */
+  .notFound {
+    background-image: url('/images/404/bg-mob.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+  @media screen and (min-width: 1280px) {
+    .notFound {
+      background-image: url('/images/404/bg.svg');
+      background-size: 1302px auto;
+    }
+  }
+  /* End classes for 404 page */
+
+  /* Start classes for slider */
+  .dots {
+    @apply flex justify-center;
+  }
+  .dot {
+    @apply h-[2px] w-full rounded-sm bg-disabled;
+  }
+  .dots .active {
+    @apply bg-primary;
+  }
+  .keen-slider__slide {
+    @apply h-[380px] w-[320px] md:w-[336px] xl:h-[400px] xl:w-[392px];
+  }
+  .gradient {
+    background: linear-gradient(
+      180deg,
+      rgba(37, 101, 208, 0) 37.25%,
+      #2565d0 117.25%
+    );
+  }
+  /* End classes for slider */
+
+  /* Start classes for tabs */
+  .tab-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d6dfe6;
+  }
+
+  @media screen and (min-width: 768px) {
+    .tab-section-title::after {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .tab-section-title::after {
+      display: block;
+      bottom: -16px;
+    }
+  }
+
+  .tab-card::after {
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d6dfe6;
+  }
+
+  .tab-card:last-child::after {
+    display: none;
+  }
+  /* End classes for tabs */
+
+  /* Start classes for you get card */
+  .get-card--top::before {
+    content: '';
+
+    position: absolute;
+    top: -3px;
+    left: -3px;
+
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #2565d0;
+
+    z-index: 1;
+  }
+  .get-card--top::after {
+    content: '';
+
+    position: absolute;
+    top: -3px;
+    right: -3px;
+
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #2565d0;
+
+    z-index: 1;
+  }
+
+  .get-card--bottom::before {
+    content: '';
+
+    position: absolute;
+    bottom: -3px;
+    left: -3px;
+
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #2565d0;
+
+    z-index: 1;
+  }
+  .get-card--bottom::after {
+    content: '';
+
+    position: absolute;
+    bottom: -3px;
+    right: -3px;
+
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #2565d0;
+
+    z-index: 1;
+  }
+  @media screen and (min-width: 768px) {
+    .get-card:nth-last-child(2) {
+      border-bottom: 1px solid #d6dfe6;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .get-card:nth-last-child(-n + 4) {
+      border-bottom: 1px solid #d6dfe6;
+    }
+    .get-card:nth-child(4n + 2) {
+      border-right: 0;
+    }
+  }
+  /* End classes for you get card */
+
+  /* Start classes for contacts */
+
+  .contactsBg {
+    background-image: url('/images/contacts/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  @media screen and (min-width: 768px) {
+    .contactsBg {
+      background-image: url('/images/contacts/bg-tablet.svg');
+      background-position: bottom left calc(50% - 223px);
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .contactsBg {
+      background-image: url('/images/contacts/bg-desktop.svg');
+      background-position: bottom right calc(40% - 183px);
+    }
+  }
+
+  .contactsSocialLink {
+    color: inherit;
+    transition: color 300ms;
+  }
+
+  .contactsSocialLink:hover {
+    color: #dae3ff;
+  }
+
+  .contactsSocialIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* End classes for contacts */
+}
+
+/* Start classes for react-scroll */
+@media screen and (min-width: 1280px) {
+  a.active {
+    color: #2565d0;
+  }
+}
+
+/* End classes for react-scroll */
